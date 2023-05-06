@@ -30,7 +30,7 @@ class _myAppState extends State<myApp> {
       builder: (context, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          initialRoute: 'HomePage',
+          initialRoute: 'SplashScreen',
           themeMode:
               (Provider.of<ThemeProvider>(context).themeModal.isDark == false)
                   ? ThemeMode.light

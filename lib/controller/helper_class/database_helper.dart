@@ -8,7 +8,7 @@ class DataBaseHelper {
 
   static final DataBaseHelper dataBaseHelper = DataBaseHelper._();
   Database? db;
-  String dbName = 'reminderApp2';
+  String dbName = 'reminderApp12';
   String tableName = 'reminderTable1';
   String id = 'id';
   String title = 'title';
