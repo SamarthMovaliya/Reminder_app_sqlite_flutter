@@ -242,7 +242,12 @@ class _HomePageState extends State<HomePage> {
                         DataBaseHelper.dataBaseHelper
                             .dummy(id: allData[index].id);
                         DateTime t = DateTime.parse(allData[index].time);
-
+                        NotificationHelper.notificationHelper.showNotification(
+                          id: allData[index].id,
+                          title: allData[index].title,
+                          description: allData[index].description,
+                          scheduleTime: allData[index].time,
+                        );
                         return Padding(
                           padding: const EdgeInsets.only(bottom: 10.0),
                           child: Card(
