@@ -42,7 +42,7 @@ This app is created in flutter SDK using Android Studio, basically this can be r
 
 - Splashscreen
 - Light and Dark Mode
-- Random Color palette generator on one click
+- help you by reminding your stored activity via notification
 
 
 
@@ -69,7 +69,11 @@ For support, email samarthmovaliya1@gmail.com.
 
 
 
-https://user-images.githubusercontent.com/121867874/235351118-6542d797-0a15-47cf-987e-bee5b193a25c.mp4
+
+
+https://user-images.githubusercontent.com/121867874/236637446-1afc5f09-1075-4375-ac1c-d737eed1bb2e.mov
+
+
 
 
 
